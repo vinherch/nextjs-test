@@ -1,0 +1,44 @@
+.navigation {
+  flex: 2;
+}
+
+.navigation ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  gap: 1rem;
+}
+
+.navigation ul li {
+  list-style: none;
+  cursor: pointer;
+  flex-basis: 8rem;
+  text-align: center;
+  font-size: 1.2rem;
+  flex-shrink: 1;
+  position: relative;
+}
+
+.navigation a::before {
+  content: "";
+  position: absolute;
+  pointer-events: none;
+  left: 0;
+  bottom: 0;
+  width: 0;
+  height: 2px;
+  transform-origin: bottom center;
+  background-color: #fff;
+  transition: width 350ms ease;
+}
+
+.navigation a:hover::before {
+  width: 100%;
+}
+
+.navigation a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem;
+  color: #fff;
+}
