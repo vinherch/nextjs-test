@@ -10,8 +10,9 @@
 }
 
 .id {
-  font-size: 1rem;
+  font-size: 0.7rem;
   padding: 1rem 0;
+  color: rgb(167, 167, 167);
 }
 
 .title {
