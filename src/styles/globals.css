@@ -29,3 +29,10 @@ a {
   text-decoration: none;
   color: inherit;
 }
+
+@media screen and (max-width: 768px) {
+  .card-container,
+  .project-container {
+    padding: 1rem;
+  }
+}

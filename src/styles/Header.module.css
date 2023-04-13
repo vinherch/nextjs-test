@@ -10,11 +10,19 @@
   gap: 2rem;
 }
 
-.logo {
-  flex: 1;
-  color: #ffff;
+.title {
+  font-size: 2rem;
+  padding: 1rem;
 }
 
-.logo h1 {
-  font-size: 3rem;
+@media screen and (max-width: 768px) {
+  .header {
+    padding: 1rem;
+    gap: 1rem;
+    flex-direction: column;
+  }
+
+  .title {
+    font-size: 1.5rem;
+  }
 }

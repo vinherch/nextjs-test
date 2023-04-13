@@ -14,7 +14,7 @@ function Header({ title }) {
   return (
     <header className={styles.header}>
       <Link href="/">
-        <h1>{title}</h1>
+        <h1 className={styles.title}>{title}</h1>
       </Link>
       <Navigation elements={elements} />
     </header>

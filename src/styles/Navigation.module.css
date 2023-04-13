@@ -42,3 +42,14 @@
   padding: 1rem;
   color: #fff;
 }
+
+@media screen and (max-width: 768px) {
+  .navigation ul {
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  .navigation ul li {
+    flex-basis: 0;
+  }
+}
